@@ -21,7 +21,7 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
     return (
-        <div>
+        <div className={s.mainWrap}>
             <hr/>
             homeworks 4
 

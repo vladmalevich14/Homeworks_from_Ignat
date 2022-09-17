@@ -1,8 +1,6 @@
 .message {
-    background-color: silver;
     display: flex;
     align-items: flex-end;
-    background-image: url('https://mobimg.b-cdn.net/v3/fetch/32/3289e75c6aaa48d2708a698cf127ca40.jpeg');
 }
 
 .avatar {

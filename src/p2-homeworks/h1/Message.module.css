@@ -1,8 +1,6 @@
 .message {
-    background-color: silver;
     display: flex;
     align-items: flex-end;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/004/359/826/non_2x/texture-of-the-water-surface-of-the-sea-free-photo.jpg');
 }
 
 .avatar {
