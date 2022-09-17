@@ -1,0 +1,54 @@
+.message {
+    background-color: silver;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/359/826/non_2x/texture-of-the-water-surface-of-the-sea-free-photo.jpg');
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px 0 5px 5px;
+}
+
+.time {
+    margin: 35px 5px 0 30px;
+    font-size: 12px;
+    color: gray;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: dodgerblue;
+}
+
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.textWrap {
+    margin: 10px 0 10px 15px;
+    padding: 0 0 5px 10px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px 10px 10px 0;;
+    background-color: rgba(47, 79, 79, 0.9);
+    color: white;
+    position: relative;
+}
+
+.textWrap::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 25px;
+    height: 30px;
+    background: radial-gradient(65px at top left, transparent 49%, darkslategray 51%) no-repeat right bottom;
+}
+

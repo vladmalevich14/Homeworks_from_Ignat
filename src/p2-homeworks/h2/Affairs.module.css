@@ -1,0 +1,18 @@
+.mainBackground {
+    background-image: url("https://img2.goodfon.ru/wallpaper/nbig/3/5c/peyzazh-zvezdnoe-nebo-zvezdy.jpg");
+}
+
+.buttons {
+    margin: 5px;
+}
+
+.tasks {
+    margin: 5px;
+    display: flex;
+    color: white;
+}
+
+.description {
+    min-width: 100px;
+    max-width: 150px;
+}

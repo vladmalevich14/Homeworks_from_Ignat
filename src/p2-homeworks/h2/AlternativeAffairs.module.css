@@ -1,0 +1,21 @@
+.buttons {
+    margin: 5px;
+    font-family: "Bauhaus 93";
+    background-color: gold;
+}
+
+.cross {
+    font-family: "Bauhaus 93";
+    background-color: gold;
+}
+
+.tasks {
+    margin: 5px;
+    display: flex;
+    color: ghostwhite;
+}
+
+.description {
+    min-width: 100px;
+    max-width: 150px;
+}
